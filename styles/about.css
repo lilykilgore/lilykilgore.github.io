@@ -11,6 +11,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    font-style: italic;
 }
 
 .job-title {
@@ -18,18 +19,36 @@ h2 {
     font-weight: bold;
 }
 
-a:link,
+
+a:link{
+    color: purple;
+}
 a:visited {
-    color: #fb6542;
+    color: purple;
 }
 
 a:hover {
+    color: green
     text-decoration: none;
+    color: green;
 }
 
 
 h1.silly {
-    color: rgb(209, 47, 169);   
+    color: hotpink;   
     border-bottom: dotted 10px rgb(210, 166, 247); 
+
+}
+
+ul.contact {
+    background-color: #eeeeee ;
+    border: 5px purple solid;
+    padding: 2px;
+    color: green;
+}
+
+
+ul.link {
+    color: green;
 
 }
