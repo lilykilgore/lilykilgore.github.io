@@ -48,11 +48,18 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    animation-duration: 1s 
-    animation-iteration-count: infinate
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    animation-name: spinner;
+    animation-timing-function: linear;
 }
-@keyframes spinner{    
-    rotate from: 0 to 360
+@keyframes spinner {    
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
 }
 
 
@@ -69,3 +76,12 @@
     object-fit: cover;
 }
 
+.fading-gallery img:hover {
+    width: 150px;
+    height: 150px;
+    opacity: 0.4;
+    padding: 20px;
+    background-color: rgb(162, 182, 201);
+    box-shadow: 10px 5px 5px rgb(22, 41, 211);
+    transform: translateY(-20px)
+}
