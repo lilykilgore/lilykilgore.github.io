@@ -15,17 +15,15 @@ for (let i = 0; i <= 50; i = i + 2) {
 }
 console.log("Task 4")
 let sum = 0;
-for (let i = 1; i <= 100; i++){
+for (let i = 1; i <= 100; i++) {
     sum = sum + i;
 }
 console.log(sum);
 
 console.log("Task 5")
-for (let i = 1; i <= 10; i++){
-    let factorial = 1
-for (let j = 1; j <=i; j++){
-    factorial *= 1;
+let numbersFactorial = 1;
+for (let i = 1; i <= 10; i++) {
+    numbersFactorial = numbersFactorial * i
+    console.log(numbersFactorial);
 
-}
-    console.log(factorial);
 }
