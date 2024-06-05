@@ -2,25 +2,57 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="styles/main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .cookie {
+            font-size: 50px;
+            position: absolute;
+            bottom: 100px;
+            animation: move 5s linear infinite;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(-100vw);
+            }
+
+            50% {
+                transform: translateX(100vw);
+            }
+
+            100% {
+                transform: translateX(-100vw);
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <h1 class="First-Title">The Worlds Best Ginger Snaps</h1>
-  <a href="/about.html">Page 2</a>
-  <h2 class="All-About-Ginger-Snaps"> All About <strong>Ginger Snaps</strong> </h2>
-  <p>paragraph about ginger snaps <em>emphasis</em> <strong>strong</strong>.</p>
+    <h1 class="First-Title">The Worlds Best Ginger Snaps</h1>
+
+    <a href="/about.html">Page 2</a>
+    <h2 class="All-About-Ginger-Snaps"> All About <strong>Ginger Snaps</strong> </h2>
+    <p>paragraph about ginger snaps <em>emphasis</em> <strong>strong</strong>.</p>
 
 
-  <h2 class="important">MMM So Good!</h2>
-  <p id="MMM-So-Good"> </p>
-    
+    <h2 class="important">MMM So Good!</h2>
+    <p id="MMM-So-Good"> </p>
+    <div class="Moving-Cookie">
+        <div class="cookie"></div>
+    </div>
+    <div class="cookie">🍪</div>
 
-  <img src="images/starry.night.image.jpg" alt="image of starry night" style="width: 25%; height: auto;">
-  <script src="scripts/main.js"></script>
+    <img src="images/ginger.snap.heart.image.jpg" alt="image of heart gingersnaps" style="width: 25%; height: auto;">
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
