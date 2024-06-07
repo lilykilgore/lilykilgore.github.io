@@ -5,7 +5,7 @@
 <a href="/index.html">Back to Start</a>
 <link href="styles/main.css" rel="stylesheet">
 
-    <title>Recipe</title>
+<title>Document</title>
     <style>
         .title {
             font-weight: bold;
@@ -13,19 +13,19 @@
     </style>
     <script>
         function addEntry() {
-            // Get the input values
+            
             const name = document.getElementById('name').value;
             const additions = document.getElementById('additions_to_recipe').value;
             const ingredients = document.getElementById('additional_ingredients').value;
 
-            // Create a new list item with the input values
+            
             const newItem = document.createElement('li');
             newItem.textContent = `Name: ${name}, Additions: ${additions}, Ingredients: ${ingredients}`;
 
-            // Append the new item to the list
+           
             document.getElementById('entries').appendChild(newItem);
 
-            // Clear the input fields
+        
             document.getElementById('name').value = '';
             document.getElementById('additions_to_recipe').value = '';
             document.getElementById('additional_ingredients').value = '';
@@ -33,8 +33,8 @@
     </script>
 </head>
 <body>
-    <h1>Recipe</h1>
-    <h2>What You Need:</h2>
+    <h1 class="All-About-Ginger-Snaps">Recipe</h1>
+    <h2 class="important">What You Need:</h2>
     <ol>
         <li>3/4 cup butter</li>
         <li>2 eggs</li>
@@ -47,7 +47,7 @@
         <li>2 teaspoons cloves</li>
         <li>2 teaspoons ginger</li>
     </ol>
-    <h2>How to Make:</h2>
+    <h2 class="important">How to Make:</h2>
     <p>Preheat oven to 350 degrees Fahrenheit Cream butter and shortening until soft and light, then add 2 cups of the sugar a little bit at a time. Continue creaming until fluffy. Beat in the eggs and molasses thouroughly. sift together all of the dry ingridients and mix, little by little with the creamed batter, beating hard. The batter will be quite soft. Roll pieces of the dough into balls about one inch in diameter then rool each ball in the 3/4 cups (more or less) sugar. Place of greased parchment papaer baking sheet about three inches apart. Bake for 10-15 minutes. Let stand for a minute before cooling on a wire rack. Enjoy!</p>
     <fieldset>
         <legend>Anything You Want to Add?</legend>

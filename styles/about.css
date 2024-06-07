@@ -24,11 +24,11 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: red
+    color: rgb(186, 61, 213)
 }
 
 
 h1.silly {
-    color: hotpink;   
-    border-bottom: dotted 10px rgb(210, 166, 247); 
-z}
+    color: rgb(120, 171, 222);   
+    border-bottom: dotted 10px rgb(237, 245, 128); 
+}
