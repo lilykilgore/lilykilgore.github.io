@@ -28,7 +28,7 @@ a:visited {
 }
 
 a:hover {
-    color: green
+    color: red
     text-decoration: none;
     color: green;
 }
@@ -44,11 +44,11 @@ ul.contact {
     background-color: #eeeeee ;
     border: 5px purple solid;
     padding: 2px;
-    color: green;
+    color: red;
 }
 
 
 ul.link {
-    color: green;
+    color: red;
 
 }
