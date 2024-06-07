@@ -2,3 +2,37 @@ p {
     background-color: rgb(241, 154, 227); 
     font-size: 16px;
     }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #375e97;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #375e97;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+a:link{
+    color: rgb(244, 49, 244);
+}
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red
+}
+
+
+h1.silly {
+    color: hotpink;   
+    border-bottom: dotted 10px rgb(210, 166, 247); 
+}

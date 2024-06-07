@@ -14,41 +14,21 @@ h2 {
     font-style: italic;
 }
 
-.job-title {
-    color: #999999;
-    font-weight: bold;
-}
-
 
 a:link{
-    color: purple;
+    color: rgb(244, 49, 244);
 }
 a:visited {
     color: purple;
 }
 
 a:hover {
-    color: red
     text-decoration: none;
-    color: green;
+    color: red
 }
 
 
 h1.silly {
     color: hotpink;   
     border-bottom: dotted 10px rgb(210, 166, 247); 
-
-}
-
-ul.contact {
-    background-color: #eeeeee ;
-    border: 5px purple solid;
-    padding: 2px;
-    color: red;
-}
-
-
-ul.link {
-    color: red;
-
-}
+z}

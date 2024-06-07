@@ -22,3 +22,22 @@ h2.important {
     color: rgb(120, 171, 222)
     
 }
+.fading-gallery img:hover {
+  width: 150px;
+  height: 150px;
+  opacity: 0.4;
+  padding: 20px;
+  background-color: rgb(162, 182, 201);
+  box-shadow: 10px 5px 5px rgb(214, 99, 179);
+  transform: translateY(-20px)
+}
+.fading-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fading-gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
