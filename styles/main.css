@@ -41,3 +41,27 @@ h2.important {
   height: 100px;
   object-fit: cover;
 }
+.centered-paragraph {
+  width: 60%; 
+  margin: 0 auto;
+  padding: 20px; 
+  text-align: center; 
+  border: 1px solid #ccc
+}
+.bordered-title {
+  border: 2px solid #000; 
+  padding: 1.5rem; 
+  display: inline-block
+}
+.button-press-animation button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f21dd2;
+  color: white;
+  cursor: pointer;
+}
+.button-press-animation button:active {
+  background-color: #f21dd2;
+  color: white;
+  transform: translateY(10px)
+}

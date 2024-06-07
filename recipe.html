@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><a href="/significance.html">Page 3</a>
+<title>Document</title>
+
+  <a href="/significance.html">Page 3</a> 
     <p></p>
 <a href="/index.html">Back to Start</a>
 <link href="styles/main.css" rel="stylesheet">
 
-<title>Document</title>
-    <style>
-        .title {
-            font-weight: bold;
-        }
-    </style>
+
+    
     <script>
         function addEntry() {
             
@@ -31,11 +29,11 @@
             document.getElementById('additional_ingredients').value = '';
         }
     </script>
-</head>
-<body>
-    <h1 class="All-About-Ginger-Snaps">Recipe</h1>
+    <hr>
+    <h1 class="All-About-Ginger-Snaps"> Recipe </h1> 
+    
     <h2 class="important">What You Need:</h2>
-    <ol>
+    <ol class="bordered-title">
         <li>3/4 cup butter</li>
         <li>2 eggs</li>
         <li>3/4 cup shortening (Crisco)</li>
@@ -48,7 +46,7 @@
         <li>2 teaspoons ginger</li>
     </ol>
     <h2 class="important">How to Make:</h2>
-    <p>Preheat oven to 350 degrees Fahrenheit Cream butter and shortening until soft and light, then add 2 cups of the sugar a little bit at a time. Continue creaming until fluffy. Beat in the eggs and molasses thouroughly. sift together all of the dry ingridients and mix, little by little with the creamed batter, beating hard. The batter will be quite soft. Roll pieces of the dough into balls about one inch in diameter then rool each ball in the 3/4 cups (more or less) sugar. Place of greased parchment papaer baking sheet about three inches apart. Bake for 10-15 minutes. Let stand for a minute before cooling on a wire rack. Enjoy!</p>
+    <p class="centered-paragraph">Preheat oven to 350 degrees Fahrenheit Cream butter and shortening until soft and light, then add 2 cups of the sugar a little bit at a time. Continue creaming until fluffy. Beat in the eggs and molasses thouroughly. sift together all of the dry ingridients and mix, little by little with the creamed batter, beating hard. The batter will be quite soft. Roll pieces of the dough into balls about one inch in diameter then rool each ball in the 3/4 cups (more or less) sugar. Place of greased parchment papaer baking sheet about three inches apart. Bake for 10-15 minutes. Let stand for a minute before cooling on a wire rack. Enjoy!</p>
     <fieldset>
         <legend>Anything You Want to Add?</legend>
         <label class="title" for="name">Your name:</label>
@@ -64,11 +62,13 @@
                 <input type="text" name="additional_ingredients" id="additional_ingredients"><br />
             </li>
         </ul>
-
+        <div class="button-press-animation">
         <button type="button" onclick="addEntry()">Add</button>
-    </fieldset>
+   </div>
+ </fieldset>
 
     <h2>Entries</h2>
     <ul id="entries"></ul>
+    <h2>Thank you!</h2>
     </body>
 </html>
